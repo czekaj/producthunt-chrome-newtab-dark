@@ -3,11 +3,15 @@
 
 ## Step 1:
 
-Install the Chrome Mojave theme
+Install the Chrome Mojave theme to make Chrome dark
+
+
 ![](https://lh3.googleusercontent.com/-USs_B_o1rMDjoFiDLJEnE5su-o8xLQKcey0bTwuYGza3i8dmbg0wlMYrtj7RORBafpmYR276T4=w640-h400-e365)
 https://chrome.google.com/webstore/detail/macos-mojave-dark-mode/emoadoophllahfgbjaidlhjgnnmmdigh?hl=en
 
 ## Step 2:
+
+Go to terminal and `cd` into a folder you keep your stuff in. Then clone the repo: 
 
 `git clone git@github.com:czekaj/producthunt-chrome-newtab-dark.git`
 
@@ -20,4 +24,6 @@ Enable Developer mode for Chrome extensions & load the cloned extension folder
 
 ## Step 4:
 
-There is no step 4
+Done!
+
+![](DEMO.png)
