@@ -1,7 +1,7 @@
 # How to make your Chrome & the Product Hunt new tab **very dark**
 ---
 
-## Step 1:
+## Step 1 (optional):
 
 Install the Chrome Mojave theme to make Chrome dark
 
