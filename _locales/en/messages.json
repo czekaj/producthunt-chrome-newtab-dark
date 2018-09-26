@@ -5,7 +5,7 @@
    },
    "appName": {
       "description": "The name of the application",
-      "message": "Product Hunt"
+      "message": "Product Hunt (dark mode)"
    },
    "title": {
       "description": "Default title",
