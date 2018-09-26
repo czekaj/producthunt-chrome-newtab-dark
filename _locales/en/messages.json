@@ -1,0 +1,14 @@
+{
+   "appDescription": {
+      "description": "The description of the application",
+      "message": "Product Hunt brings you the best new products, every day."
+   },
+   "appName": {
+      "description": "The name of the application",
+      "message": "Product Hunt"
+   },
+   "title": {
+      "description": "Default title",
+      "message": "Product Hunt: The best new products, every day"
+   }
+}

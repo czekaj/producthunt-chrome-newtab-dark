@@ -1,0 +1,41 @@
+{
+   "background": {
+      "scripts": [ "vendor/analytics.js", "apps/background/main.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "common/icons/icon-19.png",
+         "38": "common/icons/icon-38.png"
+      },
+      "default_popup": "apps/popup/main.html",
+      "default_title": "__MSG_title__"
+   },
+   "chrome_url_overrides": {
+      "newtab": "apps/tabs/main.html"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "css": [ "apps/content/main.css" ],
+      "js": [ "apps/content/main.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src https://ssl.google-analytics.com 'self' 'unsafe-eval'; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_appDescription__",
+   "icons": {
+      "128": "common/icons/icon-128.png",
+      "16": "common/icons/icon-16.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAumFIldTUsXnGkf43YAlAXxAoaVRcTyqWgDbqVDpEOpW4AMpZ2tuBtG2CIGKv07t0MWuqvJMkgA4nfD00lhAmD6ZL3WzqdaFG6aT9eCgPd/tWLw+ZsMc23CmLiclo/4BkyDpJDHcwShw9XGAyyHzSgl45NT+1EaYDj4qCJfdsPXWJ+OLegwe7buUvwq+X3Bd3iERUPhGOJX2wpHsIlMN+nas25IrUwSlxKHbMlWoY7oC6id0GFkBFADP3ejC7j76ijxGz6TljfGzYG5aUeLB8BwcrcFTbn1riD3LBHdGDotoOdBxU2v9pWPyqg//04kRPYxvzvI4DpRv3ui/DkAF/ZQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "omnibox": {
+      "keyword": "product"
+   },
+   "options_page": "apps/options/main.html",
+   "permissions": [ "*://www.producthunt.com/*", "webRequestBlocking", "storage", "webRequest", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1.2",
+   "web_accessible_resources": [ "apps/content/product-bar.css", "apps/content/assets/comment.svg", "apps/content/assets/arrow_up.svg", "common/loader/loader.png", "common/loader/loader@2x.png", "common/product-pane/close.css" ]
+}
