@@ -17,8 +17,9 @@ Go to terminal and `cd` into a folder you keep your stuff in. Then clone the rep
 
 ## Step 3:
 
-Enable Developer mode for Chrome extensions & load the cloned extension folder
-
+* Enable Developer mode for Chrome extensions
+* Disable the original Product Hunt extension 
+* Load the cloned extension folder
 
 ![](https://developer.chrome.com/static/images/get_started/load_extension.png)
 
